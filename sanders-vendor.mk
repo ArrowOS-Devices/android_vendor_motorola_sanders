@@ -832,7 +832,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/motorola/sanders/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/motorola/sanders/proprietary/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf:system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf \
-    vendor/motorola/sanders/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
     vendor/motorola/sanders/proprietary/bin/fmhal_service:system/bin/fmhal_service \
     vendor/motorola/sanders/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so:system/vendor/lib/libchromatix_mot_s5k2l7sa_1080p_preview_3a.so \
