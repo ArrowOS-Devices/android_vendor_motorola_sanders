@@ -935,6 +935,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libmcf-foundation.so:system/vendor/lib/libmcf-foundation.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmcf-local.so:system/vendor/lib/libmcf-local.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmcf-qc-fd-offline.so:system/vendor/lib/libmcf-qc-fd-offline.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libmcf-foundation.so:system/vendor/lib64/libmcf-foundation.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libmcf-local.so:system/vendor/lib64/libmcf-local.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libmcf-qc-fd-offline.so:system/vendor/lib64/libmcf-qc-fd-offline.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_dw9763_eeprom.so:system/vendor/lib/libmmcamera_dw9763_eeprom.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_gt24c64_bear_eeprom.so:system/vendor/lib/libmmcamera_gt24c64_bear_eeprom.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_gt24c64_mono_eeprom.so:system/vendor/lib/libmmcamera_gt24c64_mono_eeprom.so \
