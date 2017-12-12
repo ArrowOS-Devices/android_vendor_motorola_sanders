@@ -17,7 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/bin/adspd:system/vendor/bin/adspd \
     vendor/motorola/sanders/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/motorola/sanders/proprietary/bin/akmd09912:system/bin/akmd09912 \
+    vendor/motorola/sanders/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
     vendor/motorola/sanders/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/sanders/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/motorola/sanders/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
