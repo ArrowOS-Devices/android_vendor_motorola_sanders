@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/bin/adspd:system/vendor/bin/adspd \
     vendor/motorola/sanders/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/motorola/sanders/proprietary/vendor/bin/akmd09912:system/vendor/bin/akmd09912 \
     vendor/motorola/sanders/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/motorola/sanders/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/sanders/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
@@ -27,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/motorola/sanders/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/sanders/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
-    vendor/motorola/sanders/proprietary/vendor/bin/motosh:system/vendor/bin/motosh \
     vendor/motorola/sanders/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/motorola/sanders/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/motorola/sanders/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
@@ -104,14 +102,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
     vendor/motorola/sanders/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/motorola/sanders/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/motorola/sanders/proprietary/etc/firmware/sensorhub-blacklist.txt:system/etc/firmware/sensorhub-blacklist.txt \
     vendor/motorola/sanders/proprietary/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-potter-16112102-25d862-potter.tdat \
     vendor/motorola/sanders/proprietary/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat:system/etc/firmware/synaptics-boe-s3203b-16112102-25d862-potter.tdat \
     vendor/motorola/sanders/proprietary/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat:system/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat \
     vendor/motorola/sanders/proprietary/etc/firmware/synaptics-s3508sga-16103104-255c40-albus.tdat:system/etc/firmware/synaptics-s3508sga-17022300-255c40-albus.tdat \
     vendor/motorola/sanders/proprietary/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-potter-17011001-237533-potter.tdat \
     vendor/motorola/sanders/proprietary/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat:system/etc/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat \
-    vendor/motorola/sanders/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
     vendor/motorola/sanders/proprietary/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:system/etc/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
     vendor/motorola/sanders/proprietary/etc/permissions/cneapiclient.xml:system/vendor/etc/permissions/cneapiclient.xml \
@@ -462,7 +458,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libsensorhubservice_jni.so:system/vendor/lib/libsensorhubservice_jni.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
