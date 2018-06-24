@@ -1302,6 +1302,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
 
+# DTV
+PRODUCT_COPY_FILES += \
+    vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.hardware.dtv.xml:system/vendor/etc/permissions/com.motorola.hardware.dtv.xml \
+    vendor/motorola/sanders/proprietary/etc/permissions/mot_dtv_permissions.xml:system/vendor/etc/permissions/mot_dtv_permissions.xml \
+    vendor/motorola/sanders/proprietary/lib/libdtvhal.so:system/lib/libdtvhal.so \
+    vendor/motorola/sanders/proprietary/lib/libdtvtuner.so:system/lib/libdtvtuner.so \
+    vendor/motorola/sanders/proprietary/lib64/libdtvhal.so:system/lib64/libdtvhal.so \
+    vendor/motorola/sanders/proprietary/lib64/libdtvtuner.so:system/lib64/libdtvtuner.so \
+    vendor/motorola/sanders/proprietary/priv-app/DTVPlayer/DTVPlayer.apk:system/priv-app/DTVPlayer/DTVPlayer.apk \
+    vendor/motorola/sanders/proprietary/priv-app/DTVService/DTVService.apk:system/priv-app/DTVService/DTVService.apk
+
 PRODUCT_PACKAGES += \
     TimeService \
     embms \
