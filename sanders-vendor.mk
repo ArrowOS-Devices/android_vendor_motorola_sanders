@@ -1309,9 +1309,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/lib/libdtvhal.so:system/lib/libdtvhal.so \
     vendor/motorola/sanders/proprietary/lib/libdtvtuner.so:system/lib/libdtvtuner.so \
     vendor/motorola/sanders/proprietary/lib64/libdtvhal.so:system/lib64/libdtvhal.so \
-    vendor/motorola/sanders/proprietary/lib64/libdtvtuner.so:system/lib64/libdtvtuner.so \
-    vendor/motorola/sanders/proprietary/priv-app/DTVPlayer/DTVPlayer.apk:system/priv-app/DTVPlayer/DTVPlayer.apk \
-    vendor/motorola/sanders/proprietary/priv-app/DTVService/DTVService.apk:system/priv-app/DTVService/DTVService.apk
+    vendor/motorola/sanders/proprietary/lib64/libdtvtuner.so:system/lib64/libdtvtuner.so
 
 PRODUCT_PACKAGES += \
     TimeService \
@@ -1340,6 +1338,7 @@ PRODUCT_PACKAGES += \
     tcmclient \
     com.quicinc.cne.api-V1.0-java \
     QtiTelephonyService \
-    CNEService
-
+    CNEService \
+    DTVPlayer \
+    DTVService
 
