@@ -1306,10 +1306,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.hardware.dtv.xml:system/vendor/etc/permissions/com.motorola.hardware.dtv.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/mot_dtv_permissions.xml:system/vendor/etc/permissions/mot_dtv_permissions.xml \
-    vendor/motorola/sanders/proprietary/lib/libdtvhal.so:system/lib/libdtvhal.so \
-    vendor/motorola/sanders/proprietary/lib/libdtvtuner.so:system/lib/libdtvtuner.so \
-    vendor/motorola/sanders/proprietary/lib64/libdtvhal.so:system/lib64/libdtvhal.so \
-    vendor/motorola/sanders/proprietary/lib64/libdtvtuner.so:system/lib64/libdtvtuner.so
+    vendor/motorola/sanders/proprietary/vendor/lib/libdtvhal.so:system/vendor/lib/libdtvhal.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libdtvtuner.so:system/vendor/lib/libdtvtuner.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libdtvhal.so:system/vendor/lib64/libdtvhal.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/libdtvtuner.so:system//vendor/lib64/libdtvtuner.so
 
 PRODUCT_PACKAGES += \
     TimeService \
