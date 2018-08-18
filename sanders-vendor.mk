@@ -1320,8 +1320,6 @@ PRODUCT_PACKAGES += \
     imscmlibrary \
     qcrilhook \
     com.qualcomm.location \
-    ims \
-    imssettings \
     qcrilmsgtunnel \
     izat.xt.srv \
     qti-telephony-common \
@@ -1337,7 +1335,5 @@ PRODUCT_PACKAGES += \
     rcsimssettings \
     tcmclient \
     com.quicinc.cne.api-V1.0-java \
-    QtiTelephonyService \
-    CNEService
-
+    QtiTelephonyService
 
