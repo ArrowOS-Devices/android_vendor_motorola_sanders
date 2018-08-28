@@ -1304,13 +1304,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
     vendor/motorola/sanders/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:system/vendor/etc/init/android.hardware.sensors@1.0-service.rc
 
-PRODUCT_COPY_FILES += \
-    vendor/motorola/sanders/proprietary/vendor/lib/libWi.so:system/vendor/lib/libWi.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libWtils.so:system/vendor/lib/libWtils.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libWui.so:system/vendor/lib/libWui.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/Wndroid.hardware.gnss@1.0.so:system/vendor/lib64/Wndroid.hardware.gnss@1.0.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/Wndroid.hardware.sensors@1.0.so:system/vendor/lib64/Wndroid.hardware.sensors@1.0.so
-
 PRODUCT_PACKAGES += \
     TimeService \
     embms \
@@ -1320,6 +1313,7 @@ PRODUCT_PACKAGES += \
     imscmlibrary \
     qcrilhook \
     com.qualcomm.location \
+    ims \
     qcrilmsgtunnel \
     izat.xt.srv \
     qti-telephony-common \
@@ -1335,5 +1329,6 @@ PRODUCT_PACKAGES += \
     rcsimssettings \
     tcmclient \
     com.quicinc.cne.api-V1.0-java \
-    QtiTelephonyService
+    QtiTelephonyService \
+    CNEService
 
