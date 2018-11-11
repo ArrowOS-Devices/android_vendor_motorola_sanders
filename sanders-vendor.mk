@@ -1338,6 +1338,7 @@ PRODUCT_PACKAGES += \
     qcrilhook \
     com.qualcomm.location \
     ims \
+    imssettings \
     qcrilmsgtunnel \
     izat.xt.srv \
     qti-telephony-common \
