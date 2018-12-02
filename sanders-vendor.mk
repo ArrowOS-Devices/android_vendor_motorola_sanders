@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/motorola/sanders/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/motorola/sanders/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
+    vendor/motorola/sanders/proprietary/bin/perfservice:system/bin/perfservice \
     vendor/motorola/sanders/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/sanders/proprietary/vendor/bin/qmi_motext_hook:$(TARGET_COPY_OUT_VENDOR)/bin/qmi_motext_hook \
     vendor/motorola/sanders/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
@@ -121,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-tianma-s3203b-17011001-237533-potter.tdat \
     vendor/motorola/sanders/proprietary/vendor/firmware/synaptics-s3508-16082601-255c40-addison.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3508-16082601-255c40-addison.tdat \
     vendor/motorola/sanders/proprietary/vendor/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
+    vendor/motorola/sanders/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
     vendor/motorola/sanders/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
