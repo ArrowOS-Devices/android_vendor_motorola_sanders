@@ -1322,6 +1322,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc
 
 PRODUCT_PACKAGES += \
+    libqct_resampler \
     TimeService \
     embms \
     com.qti.location.sdk \
