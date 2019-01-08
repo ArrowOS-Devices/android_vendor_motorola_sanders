@@ -105,16 +105,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "embms",
-	owner: "motorola",
-	apk: "proprietary/app/embms/embms.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "ims",
 	owner: "motorola",
 	apk: "proprietary/app/ims/ims.apk",
