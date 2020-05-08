@@ -1458,7 +1458,11 @@ PRODUCT_PACKAGES += \
     WfdService \
     atfwd \
     TimeService \
+    embms \
     ims \
+    imssettings \
+    WfdService \
+    atfwd \
     qcrilmsgtunnel \
     WfdCommon \
     com.fingerprints.extension
