@@ -25,8 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
     vendor/motorola/sanders/proprietary/etc/cne/SwimConfig.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/SwimConfig.xml \
     vendor/motorola/sanders/proprietary/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/andsfCne.xml \
-    vendor/motorola/sanders/proprietary/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/data/dsi_config.xml \
-    vendor/motorola/sanders/proprietary/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/data/netmgr_config.xml \
     vendor/motorola/sanders/proprietary/etc/firmware/ice40.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ice40.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/nvm_tlv.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/nvm_tlv_1.3.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/nvm_tlv_1.3.bin \
@@ -264,6 +262,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile4.xml \
     vendor/motorola/sanders/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/motorola/sanders/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
+    vendor/motorola/sanders/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
+    vendor/motorola/sanders/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/motorola/sanders/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
     vendor/motorola/sanders/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/motorola/sanders/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
@@ -1454,15 +1454,12 @@ PRODUCT_PACKAGES += \
     DTVPlayer \
     DTVService \
     QtiTelephonyService \
-    CNEService \
-    WfdService \
-    atfwd \
-    TimeService \
     embms \
     ims \
     imssettings \
     WfdService \
     atfwd \
     qcrilmsgtunnel \
+    TimeService \
     WfdCommon \
     com.fingerprints.extension
