@@ -1453,7 +1453,52 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/motorola/sanders/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/motorola/sanders/proprietary/vendor/radio/qcril_database/upgrade/3_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_qcrildb.sql \
-    vendor/motorola/sanders/proprietary/vendor/radio/qcril_database/upgrade/4_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_qcrildb.sql
+    vendor/motorola/sanders/proprietary/vendor/radio/qcril_database/upgrade/4_version_qcrildb.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_qcrildb.sql \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.0.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.1.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.2.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.3.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.4.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.5.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.6.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.7.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.8.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.9.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.10.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.10.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.11.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.11.so \
+    vendor/motorola/sanders/proprietary/product/lib/vendor.display.config@1.12.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.config@1.12.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.0.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.1.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.2.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.3.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.4.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.5.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.6.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.7.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.8.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.9.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.10.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.10.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.11.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.11.so \
+    vendor/motorola/sanders/proprietary/product/lib64/vendor.display.config@1.12.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.config@1.12.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.0.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.1.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.2.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.3.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.4.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.5.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.6.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.7.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.8.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.9.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.1.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.2.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.3.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.4.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.5.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.6.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.7.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.8.so \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.9.so
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.fm@1.0 \
